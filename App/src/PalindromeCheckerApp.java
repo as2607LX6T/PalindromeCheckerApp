@@ -6,22 +6,22 @@ public class PalindromeCheckerApp {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Input Text: ");
+        System.out.print("Enter a string: ");
         String input = sc.nextLine();
 
         String original = input;
-        String reverse = "";
+        String reversed = "";
 
-        // Reverse the string
-        for (int i = input.length() - 1; i >= 0; i--) {
-            reverse = reverse + input.charAt(i);
+        // Reverse string using for loop
+        for (int i = original.length() - 1; i >= 0; i--) {
+            reversed = reversed + original.charAt(i);  // String concatenation
         }
 
-        // Check palindrome
-        if (original.equalsIgnoreCase(reverse)) {
-            System.out.println("It is a Palindrome? : true");
+        // Compare original and reversed string
+        if (original.equals(reversed)) {
+            System.out.println("The string is a Palindrome.");
         } else {
-            System.out.println("It is NOT a Palindrome? : false");
+            System.out.println("The string is NOT a Palindrome.");
         }
 
         sc.close();
