@@ -2,8 +2,8 @@
 added a welcome page
 pushed into github
 to learn about intelij and github
-Stack-Based Palindrome Checker
-UC5: Stack-Based Palindrome Checker
+Queue + Stack Based Palindrome Checkgit add README.md
+UC6: Queue + Stack Based Palindrome Check
 
 
 
